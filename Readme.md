@@ -1,7 +1,7 @@
 # Личный проект «Шесть городов»
 
-* Студент: [Владимир](https://up.htmlacademy.ru/react/7/user/1176969).
-* Наставник: `Неизвестно`.
+* Студент: [Владимир Пипко](https://up.htmlacademy.ru/react/7/user/1176969).
+* Наставник: [Владимир Федин](https://up.htmlacademy.ru/react/7/user/1056177).
 
 ---
 
