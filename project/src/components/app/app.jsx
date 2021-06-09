@@ -1,7 +1,8 @@
 import React from 'react';
+import MainScreen from '../main-screen/main-screen';
 
 function App() {
-  return <p>Hello, world!</p>;
+  return <MainScreen />;
 }
 
 export default App;
