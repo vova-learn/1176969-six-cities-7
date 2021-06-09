@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import HotelCard from '../hotel-card/hotel-card';
 
 function MainScreen({placesCount}) {
@@ -104,5 +105,9 @@ function MainScreen({placesCount}) {
     </div>
   );
 }
+
+MainScreen.propTypes = {
+  placesCount: PropTypes.number.isRequired,
+};
 
 export default MainScreen;
