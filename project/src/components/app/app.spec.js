@@ -80,8 +80,8 @@ describe('Test routing', () => {
       <Router history={history} >
         <App placesCount={placesCount}/>
       </Router>);
-  });
 
-  expect(screen.getByText(/404/i)).toBeInTheDocument();
-  expect(screen.getByText(/Go back to the main page/i)).toBeInTheDocument();
+    expect(screen.getByText(/404/i)).toBeInTheDocument();
+    expect(screen.getByText(/Go back to the main page/i)).toBeInTheDocument();
+  });
 });
