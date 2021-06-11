@@ -4,7 +4,8 @@ import MainScreen from './main-screen';
 
 describe('MainScreen', () => {
   it('renders MainScreen component', () => {
-    render(<MainScreen />);
+    const placesCount = 312;
+    render(<MainScreen placesCount={placesCount} />);
     expect(screen.getByAltText(/6 cities logo/i)).toBeInTheDocument();
     expect(screen.getByText(/paris/i)).toBeInTheDocument();
     expect(screen.getByText(/cologne/i)).toBeInTheDocument();
