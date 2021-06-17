@@ -92,7 +92,7 @@ function MainScreen({placesCount}) {
               </form>
               <div className="cities__places-list places__list tabs__content">
 
-                {new Array(5).fill().map((item, index) => <HotelCard key={`${item}`}/>)}
+                {new Array(5).fill(1,2,3,4,5).map((item, index) => <HotelCard key={`${item}`}/>)}
 
               </div>
             </section>
